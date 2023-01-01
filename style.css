@@ -298,7 +298,7 @@ body {
 .grid-product--container {
   margin-bottom: 140px;
 }
-.title-grid-products {
+.title-products {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -311,20 +311,20 @@ body {
 
   color: #000000;
 }
-.top-grid-products {
+.top-products {
   display: flex;
   justify-content: space-between;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   margin-bottom: 30px;
 }
-.top-grid-product-left {
+.top-product-left {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 40px;
 }
-.top-grid-el {
+.top-el {
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
@@ -334,7 +334,7 @@ body {
 .selected-el {
   color: #000;
 }
-.top-grid-filter {
+.top-right {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
@@ -397,6 +397,7 @@ body {
 .grid-product-el {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
+  min-width: 312px;
 }
 
 .grid-product-shop {
@@ -543,3 +544,129 @@ body {
 }
 
 /* brand-banner end */
+
+/* slider-products */
+
+.slider-products--container {
+  margin-bottom: 140px;
+}
+.slider-products {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+/* slider-products end*/
+
+/* newsletter-instagram */
+
+.newsletter-instagram {
+  background: #f1f1f1;
+  min-height: 748px;
+}
+.instagram--container {
+  overflow: hidden;
+}
+.title-products.down {
+  margin-top: 100px;
+  margin: 100px auto 60px auto;
+}
+.instagram-select {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 70px;
+}
+.el1 {
+  width: 200px;
+  height: 200px;
+  background-image: url(./img/i03\ 1.png);
+}
+.el2 {
+  width: 200px;
+  height: 200px;
+  background-image: url(./img/i011\ 1.png);
+}
+.el3 {
+  width: 200px;
+  height: 200px;
+  background-image: url(./img/i07\ 1.png);
+}
+.el4 {
+  width: 200px;
+  height: 200px;
+  background-image: url(./img/i012\ 1.png);
+}
+.el5 {
+  width: 200px;
+  height: 200px;
+  background-image: url(./img/i014\ 1.png);
+}
+.el6 {
+  width: 200px;
+  height: 200px;
+  background-image: url(./img/i02\ 1.png);
+}
+.inst-overlay {
+  width: 200px;
+  height: 200px;
+  opacity: 0%;
+  transition: 500ms ease;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inst-overlay:hover {
+  background: rgba(0, 0, 0, 0.51);
+  opacity: 100%;
+}
+.h1-text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #000;
+  margin-bottom: 80px;
+}
+.form-email-all {
+  text-align: center;
+  /* font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px; */
+}
+#email {
+  height: 32px;
+  width: 643px;
+  margin-right: 27px;
+  padding-left: 15px;
+  border-bottom: #000 solid 2px;
+  background: #f1f1f1;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #717171;
+}
+#submit {
+  height: 32px;
+  width: 90px;
+  border-bottom: #000 solid 2px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #000000;
+  cursor: pointer;
+}
+
+/* newsletter-instagram end */
