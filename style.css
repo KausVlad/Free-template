@@ -270,7 +270,7 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 52px;
-  background-color: #000;
+  background: #1e2832;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -290,3 +290,201 @@ body {
 .item-card:hover .item-hover {
   transform: translateY(0%);
 }
+
+/* hot-category end */
+
+/* grid-product */
+
+.grid-product--container {
+  margin-bottom: 140px;
+}
+.title-grid-products {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+
+  color: #000000;
+}
+.top-grid-products {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  margin-bottom: 30px;
+}
+.top-grid-product-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+.top-grid-el {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #777777;
+  text-transform: capitalize;
+}
+.selected-el {
+  color: #000;
+}
+.top-grid-filter {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #fff;
+  background: #1e2832;
+  width: 88px;
+  height: 32px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+.grid-products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 477px);
+  grid-column-gap: 24px;
+  grid-row-gap: 34px;
+}
+.p1 {
+  background-image: url(./img/p1.svg);
+  height: 400px;
+}
+.p2 {
+  background-image: url(./img/p2.svg);
+  height: 400px;
+}
+.p3 {
+  background-image: url(./img/p3.svg);
+  height: 400px;
+}
+.p4 {
+  background-image: url(./img/p4.svg);
+  height: 400px;
+}
+.p5 {
+  background-image: url(./img/p5.svg);
+  height: 400px;
+}
+.p6 {
+  background-image: url(./img/p6.svg);
+  height: 400px;
+}
+.p7 {
+  background-image: url(./img/p7.svg);
+  height: 400px;
+}
+.p8 {
+  background-image: url(./img/p8.svg);
+  height: 400px;
+}
+.grid-product-img .item-hover {
+  justify-content: flex-start;
+}
+.favorite {
+  margin-right: 10px;
+  margin-left: 7px;
+}
+.grid-product-el {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+}
+
+.grid-product-shop {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+  margin-right: 16px;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: capitalize;
+}
+.title-product {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  max-width: 292px;
+  margin: 18px auto 15px auto;
+}
+.bottom-product {
+  display: flex;
+  justify-content: space-between;
+  max-width: 292px;
+  margin: 0 auto;
+}
+.product-name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #777777;
+}
+.product-price {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  text-transform: capitalize;
+  color: #000;
+}
+.sale::after {
+  text-decoration-line: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  text-transform: capitalize;
+  color: #ff6f61;
+}
+.sale.s1::after {
+  content: ' $155.00';
+}
+.sale.s2::after {
+  content: ' $198.00';
+}
+.product-price.sale {
+  /* text-decoration-line: line-through; */
+  color: #777777;
+}
+.grid-product-el.sale::after {
+  position: relative;
+  content: 'sale';
+  top: -440px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #1e2832;
+  padding: 4px 12px;
+}
+.grid-product-el.hot::after {
+  position: relative;
+  content: 'hot';
+  top: -440px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #ff6f61;
+  padding: 4px 12px;
+}
+
+/* grid-product end (WIP) */
