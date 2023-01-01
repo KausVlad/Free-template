@@ -488,3 +488,58 @@ body {
 }
 
 /* grid-product end (WIP) */
+
+/* brand-banner */
+.brand-banner {
+  background-image: url(./img/brand-banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #010204;
+  height: 776px;
+  margin-bottom: 140px;
+}
+.brand-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+}
+.zara-logo {
+  margin-bottom: 38px;
+  margin-top: 51px;
+}
+.zara-logo-big {
+  display: inline;
+}
+.zara-logo-small {
+  display: inline;
+  position: relative;
+  left: 35px;
+  top: 210px;
+}
+.brand-info-text {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 40px;
+  text-transform: capitalize;
+  color: #ffffff;
+  max-width: 504px;
+  margin-right: 333px;
+  margin-bottom: 66px;
+}
+.see-collection-link {
+  margin-right: 592px;
+  padding-top: 7px;
+  width: 245px;
+  height: 72px;
+  background: #ffffff;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 55px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+/* brand-banner end */
